@@ -1,10 +1,32 @@
 {
   "name": "merged",
   "version": "0.0.1",
+  "description": "merged server-client code. annotated function as remote becomes a remote function. easy rpc.",
+  "keywords": [
+    "rpc",
+	"compiler",
+	"stub",
+	"proxy"
+  ],
+  "author": "Merged Authors",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "main": "./lib/merged.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec -r expect.js ./test"
+  },
+  "homepage": "https://github.com/apple-paio/merged.js",
+  "bugs": "https://github.com/apple-paio/merged.js/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apple-paio/merged.js"
+  },
   "dependencies": {
     "xregexp": "^2.0.0",
     "uglify-js": "^2.4.13",
-    "thrift": "apple-paio/thrift-nodejs-only",
+    "thrift": "apple-paio/thrift-nodejs-only", //this will be replaced with thrift v0.9.2 release.
     "connect": "^2.15.0"
   },
   "devDependencies": {
