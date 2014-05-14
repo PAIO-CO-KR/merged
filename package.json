@@ -26,7 +26,7 @@
   "dependencies": {
     "xregexp": "^2.0.0",
     "uglify-js": "^2.4.13",
-    "thrift": "apple-paio/thrift-nodejs-only", //this will be replaced with thrift v0.9.2 release.
+    "thrift": "apple-paio/thrift-nodejs-only",
     "connect": "^2.15.0"
   },
   "devDependencies": {
