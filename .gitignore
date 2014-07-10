@@ -1,3 +1,5 @@
 .idea
 node_modules
 sandbox-test.js
+merged-parser-test.js
+thrift-test.js
