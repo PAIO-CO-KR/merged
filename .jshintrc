@@ -17,7 +17,7 @@
 	"undef": true,
 	"trailing": true,
 	"unused": true,
-	"latedef": true,
+	"latedef": false,
 	"quotmark": "single",
 	"globals": {
 		"console": false,

@@ -27,7 +27,8 @@
     "xregexp": "^2.0.0",
     "uglify-js": "^2.4.13",
     "thrift": "apple-paio/thrift-nodejs-only",
-    "connect": "^2.15.0"
+    "connect": "^2.15.0",
+    "dnode": "^1.2.0"
   },
   "devDependencies": {
     "mocha": "^1.18.2",
