@@ -1,10 +1,17 @@
 /* globals describe, it */
 'use strict';
 
+Object.prototype.getName = function() {
+    var funcNameRegex = /function (.{1,})\(/;
+    var results = (funcNameRegex).exec((this).constructor.toString());
+    return (results && results.length > 1) ? results[1] : "";
+};
+
 var expect = expect || require('expect.js');
 var assert = require("assert");
 
 var merged = require('../lib/merged');
+
 
 describe('merged module', function () {
     describe('merge function', function () {

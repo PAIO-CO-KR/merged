@@ -7,6 +7,11 @@ function simpleTest (arg1, arg2, cb) {
 }
 
 
+var simpleTest2 = function (arg1, arg2, cb) {
+    'test';
+};
+
+
 
 simpleTest(1, 2, function (result) {
     console.log(result);
