@@ -11,6 +11,7 @@ var expect = expect || require('expect.js');
 var assert = require("assert");
 
 var merged = require('../lib/merged');
+var dnodeRpc = require('../lib/dnode/rpc');
 
 
 describe('merged module', function () {
@@ -20,7 +21,7 @@ describe('merged module', function () {
                 expect(result).to.be.ok();
                 assert.ok(result);
                 done();
-            });
+            }, dnodeRpc);
         });
     });
 
